@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="Min" value="122"></parameter>
+  <parameter name="Max" value="400"></parameter>
+    <classes>
+      <class name="executable.Testcase1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
